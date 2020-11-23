@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link th:href="@{/css}" rel="stylesheet">
+</head>
+<body>
+	
+	<h1 th:text="${math}"></h1>
+	<form action="/homework" method="POST">
+		<label>名前</label><input type="text" name="numbers">
+		<input type="submit", value="送信">
+	</form>
+</body>
+</html>
